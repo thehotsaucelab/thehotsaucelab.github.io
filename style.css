@@ -1,0 +1,251 @@
+body{
+  font-family: Inter, Roboto, sans-serif;
+  background-color: #ffffff; 
+  color: #3c4043;
+  font-style: normal;
+  font-size: 18px;
+  font-weight: 400;
+}
+h1, h2, h3, h4, h5, h6{
+  font-family: Inter, Roboto, sans-serif;
+  font-weight: 800;
+  letter-spacing: initial;
+  color: #202124;
+}
+a{
+  text-decoration: none;
+}
+.btn{ 
+  border: none;
+  background-color: #03a9f4;
+  font-weight: 400;
+}
+.btn:hover{ 
+  background-color: #616161;
+}
+
+/* custom css */
+.navbar{
+  font-family: Inter, Roboto, sans-serif;
+  background: #bef9f9;
+  color: #050505;
+}
+.navbar-brand{
+  font-weight: bolder;
+}
+.nav-item .nav-link{
+  font-weight: 500!important;
+}
+.navbar-light .navbar-nav .nav-link {
+  color: #050505;
+  text-decoration: underline #03a9f4 2px;
+}
+
+.navbar .navbar-toggler{
+  border: none;
+}
+
+/* feature section */
+#feature-section{ 
+  background: linear-gradient(to bottom, #bef9f9, 70%, #ffffff);
+  padding-top: 170px;
+  padding-bottom: 170px;
+  min-height: auto;
+}
+  @media screen and (max-width: 576px) {
+    #feature-section{ 
+      padding-top: 80px;
+      padding-bottom: 80px;
+      min-height: auto;
+    }
+  }
+  @media screen and (max-width: 576px) {
+    #about{
+      padding-left: 50px;
+      padding-right: 50px;
+    }
+  }
+
+#about h1{
+  line-height: 110%;
+  font-weight: 800;    
+  letter-spacing: -0.48px;
+}
+
+
+h1#tagline{
+  font-size: 62px;
+  color: #202124;
+}
+  @media screen and (max-width: 992px) {
+    h1#tagline{
+      font-size: 42px;
+    }
+  }
+  @media screen and (max-width: 768px) {
+    h1#tagline{
+      font-size: 32px;
+    }
+  }
+
+#about p{
+font-size: 22px;
+}
+  @media screen and (max-width: 992px) {
+    #about p{
+      font-size: 18px;
+    }
+  }
+  @media screen and (max-width: 768px) {
+    #about p{
+      font-size: 16px;
+    }
+  }
+
+#about span{
+  margin-right: 5px;
+}
+#about .fa-brands{ 
+  font-size: x-large;
+  color: #03a9f4;
+}
+#about .fa-brands:hover{
+  color: #616161;
+}
+
+
+/* Insights */
+#insights{
+  background-image: url('img/bg-insights.png');
+  background-size: cover;
+  background-position: center; 
+  background-repeat: no-repeat;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background-color: #ffffff;
+}
+#insights h1{
+  font-family: Inter, Roboto, sans-serif;
+  font-weight: 800;
+  background: linear-gradient(0deg,#fce62e 40%,transparent 0);
+  display: inline;
+}
+#insights p{
+  font-size: 20px;
+}
+  @media screen and (max-width: 992px) {
+    #insights p{
+      font-size: 18px;
+    }
+  }
+  @media screen and (max-width: 768px) {
+    #insights p{
+      font-size: 16px;
+    }
+  }
+#insights .btn {
+  border: none;
+  background-color: #03a9f4;
+}
+#insights .btn:hover{ 
+  background-color: #616161;
+}
+#insights a{
+  color: #ffffff;
+  text-decoration: none;
+}
+
+
+/* footer */
+footer{
+  text-align: center;
+}
+
+/* contact */
+footer #contact{
+  background-color: #ffffff;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+  @media screen and (max-width: 768px) {
+    footer #contact{
+      padding-left: 30px;
+      padding-right: 30px;
+    }
+  }
+
+footer #contact h2{
+  font-size: 62px;
+}
+  @media screen and (max-width: 992px) {
+    footer #contact h2{
+      font-size: 62px;
+    }
+  }
+  @media screen and (max-width: 768px) {
+    footer #contact h2{
+      font-size: 32px;
+    }
+  }
+  @media screen and (max-width: 576px) {
+    footer #contact h2{
+      font-size: 24px;
+    }
+  }
+footer #contact h5{
+  font-family: 'Smooch', cursive;
+  text-transform: initial;
+  font-size: xx-large;
+  font-weight: normal;
+}
+#contact p{
+  font-size: 18px;
+}
+  @media screen and (max-width: 992px) {
+    #contact p{
+      font-size: 18px;
+    }
+  }
+  @media screen and (max-width: 768px) {
+    #contact p{
+      font-size: 16px;
+    }
+  }
+footer #contact span{
+  margin-right: 5px;
+}
+footer #contact .fa-brands{
+  font-size: x-large;
+  color: #03a9f4;
+}
+footer #contact .fa-brands:hover{
+  color: #616161;
+}
+
+/* footnote */
+footer #footnote{
+  font-size: 14px;
+  padding-top: 15px;
+}
+#footnote #hosting{
+  margin-bottom: 0;
+}
+  @media screen and (max-width: 576px){
+    #footnote #hosting{
+      font-size: x-small;
+    }
+  }
+#footnote #hosting a{
+  color: #616161;
+  text-decoration: none;
+}
+#footnote #hosting a:hover{
+  color: #202124;
+}
+#copyright a{
+  color: #616161;
+  font-weight: 500;
+}
+#copyright a:hover{
+  color: #202124;
+}
